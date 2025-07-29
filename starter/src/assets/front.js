@@ -126,7 +126,7 @@ document.querySelector(".pay").addEventListener("click", (e) => {
   } else {
     // reset cash field for next entry
     // Removed the trailing $ from the returned value
-    // Changed the remaining balance to use ${currentSymbol} to properly show the correct currency symbo
+    // Changed the remaining balance to use ${currentSymbol} to properly show the correct currency symbol
     document.querySelector(".received").value = "";
     div.innerHTML = `
     <p>Cash Received: ${currencySymbol}${amount}</p>
