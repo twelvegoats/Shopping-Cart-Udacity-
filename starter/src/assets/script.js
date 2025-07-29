@@ -8,27 +8,27 @@
 */
 
 const cherry = {
-  name: "Cherry",
+  name: 'Cherry',
   price: 3,
   quantity: 0,
   productId: 1,
-  image: "./images/cherry.jpg",
+  image: './images/cherry.jpg',
 };
 
 const orange = {
-  name: "Orange",
+  name: 'Orange',
   price: 4,
   quantity: 0,
   productId: 2,
-  image: "./images/orange.jpg",
+  image: './images/orange.jpg',
 };
 
 const strawberry = {
-  name: "Strawberry",
+  name: 'Strawberry',
   price: 5,
   quantity: 0,
   productId: 3,
-  image: "./images/strawberry.jpg",
+  image: './images/strawberry.jpg',
 };
 
 /* Create an array named products which you will use to add all of your product object literals that you create in the next step. */
