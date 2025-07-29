@@ -11,21 +11,21 @@
 
 const products = [
   {
-    name: 'Cherry',
+    name: 'Cherry Ice Cream',
     price: 3,
     quantity: 0,
     productId: 1,
     image: './images/cherry.jpg',
   },
   {
-    name: 'Orange',
+    name: 'Orange Sherbet',
     price: 4,
     quantity: 0,
     productId: 2,
     image: './images/orange.jpg',
   },
   {
-    name: 'Strawberry',
+    name: 'Strawberry Ice Cream',
     price: 5,
     quantity: 0,
     productId: 3,
