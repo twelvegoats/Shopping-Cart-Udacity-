@@ -1,3 +1,5 @@
+/* Create an array named products which you will use to add all of your product object literals that you create in the next step. */
+
 /* Create 3 or more product objects using object literal notation 
    Each product should include five properties
    - name: name of product (string)
@@ -7,34 +9,29 @@
    - image: picture of product (url string)
 */
 
-const cherry = {
-  name: 'Cherry',
-  price: 3,
-  quantity: 0,
-  productId: 1,
-  image: './images/cherry.jpg',
-};
-
-const orange = {
-  name: 'Orange',
-  price: 4,
-  quantity: 0,
-  productId: 2,
-  image: './images/orange.jpg',
-};
-
-const strawberry = {
-  name: 'Strawberry',
-  price: 5,
-  quantity: 0,
-  productId: 3,
-  image: './images/strawberry.jpg',
-};
-
-/* Create an array named products which you will use to add all of your product object literals that you create in the next step. */
-
-// Moved products array below the objects declaration because of scoping issues
-const products = [cherry, orange, strawberry];
+const products = [
+  {
+    name: 'Cherry',
+    price: 3,
+    quantity: 0,
+    productId: 1,
+    image: './images/cherry.jpg',
+  },
+  {
+    name: 'Orange',
+    price: 4,
+    quantity: 0,
+    productId: 2,
+    image: './images/orange.jpg',
+  },
+  {
+    name: 'Strawberry',
+    price: 5,
+    quantity: 0,
+    productId: 3,
+    image: './images/strawberry.jpg',
+  },
+];
 
 /* Images provided in /images folder. All images from Unsplash.com
    - cherry.jpg by Mae Mu
