@@ -83,7 +83,7 @@ div.innerHTML = `
 
 ### 2. JavaScript Scoping Issue with Products Array
 
-**Problem**: Initially declared the products array before the individual product objects were defined, causing reference errors.
+**Problem**: Initially declared the products array before the individual product objects were defined, causing images not to appear.
 
 **Location**: `/src/assets/script.js`
 
