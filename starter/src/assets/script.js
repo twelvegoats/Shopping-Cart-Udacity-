@@ -182,7 +182,7 @@ const pay = (amount) => {
 
 const exchangeRates = {
   USD: 1,
-  EUR: 0.85,
+  EUR: 0.81,
   YEN: 110,
 };
 
