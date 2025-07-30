@@ -80,3 +80,9 @@ div.innerHTML = `
     <p>Remaining Balance: -${currencySymbol}${-cashReturn}</p>  // Clean formatting
 `;
 ```
+
+### Attributions:
+
+- **MDN Webdocs**
+- **JavaScript Bible, 7th Edition**
+  - Authors: Paul Novitski, Michael Morrison, Danny Goodman, Tia Gustaff Rayl
