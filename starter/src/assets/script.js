@@ -203,7 +203,7 @@ const currency = (currencyCode) => {
     product.price = parseFloat((originalPrice * rate).toFixed(2));
   });
 
-  // Reset payment state when currency changes
+  // Reset payment when currency changes
   remainingBalance = 0;
 };
 
