@@ -7,7 +7,7 @@ A JavaScript-based shopping cart application that demonstrates fundamental web d
 ### JavaScript Fundamentals
 
 - **Object Literal Notation**: Created product objects with properties like `productId`, `name`, `price`, and `image`
-- **Array Manipulation**: Managed cart items using array methods like `find()`, `push()`, and `forEach()`
+- **Array Manipulation**: Managed cart items using array methods like `find()`, `push()`, `forEach()`, and `map()`
 - **Function Design**: Implemented modular functions for cart operations (add, remove, increase/decrease quantity)
 - **ES6 Features**: Used arrow functions, template literals, and modern JavaScript syntax
 
